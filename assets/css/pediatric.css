@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc h2 {
+    color: #0A79F8;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.desc i {
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.desc p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.datetime p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A0A0A0;
+}
+
+.board {
+    margin-top: 50px;
+    width: 95%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 20px 0 0 0;
+}
+
+.status-card {
+    height: 200px;
+    width: 280px;
+}
+
+.status-card h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.status-card h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.status-card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.status-card p span {
+    width: 30px;
+    height: 10px;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+.queue-table {
+    padding: 40px 30px;
+}
+
+.queue-table h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #0A79F8;
+}
+
+.table {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.table tr {
+    margin-bottom: 10px;
+}
+.table thead {
+    font-weight: 700;
+}
+
+.table tbody {
+    font-weight: 500;
+}
+
+.table span {
+    padding: 2px 5px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.queue-table ul {
+    font-size: 12px;
+}
+
+.queue-table .nav-item {
+    background-color: #e7e5e5;
+    margin-left: 5px;
+}
+
+.queue-table .nav-item:hover {
+    background-color: #0A79F8;
+}
+
+.queue-table .nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.queue-table .nav-item:hover a {
+    background-color: #0A79F8;
+    color: #fff;
+}
+
+
+.queue-table .nav-item .active {
+    background-color: #0A79F8;
+    color: #fff;
+}
+
+/* .newstinner {
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.newstinner::-webkit-scrollbar {
+    width: 0;
+} */
+
+@media (max-width: 991px) {
+    .slide {
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .slide::-webkit-scrollbar {
+        width: 0;
+    }    
+}
