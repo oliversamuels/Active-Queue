@@ -13,8 +13,9 @@ body {
     border-radius: 10px;
     padding: 20px;
     background: rgb(171,176,176);
-    background: linear-gradient(321deg, rgba(171,176,176,1) 0%, rgba(242,242,235,1) 33%, rgba(252,252,252,1) 63%, rgba(184,183,181,1) 100%);
+    background: linear-gradient(45deg, rgba(70, 199, 104,1) 0%, rgba(242,242,235,1) 33%, rgba(252,252,252,1) 63%, rgba(70, 199, 104,1) 100%);
 }
+
 
 .form-cont form {
     width: 100%;
